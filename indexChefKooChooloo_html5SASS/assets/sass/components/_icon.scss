@@ -1,0 +1,13 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+	.icon {
+		@include icon;
+		position: relative;
+		border-bottom: none;
+
+		> .label {
+			display: none;
+		}
+	}
